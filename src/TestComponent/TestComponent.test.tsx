@@ -9,7 +9,8 @@ describe("Test Component", () => {
 
   beforeEach(() => {
     props = {
-      theme: "light"
+      theme: "light",
+      size: "large"
     };
   });
 

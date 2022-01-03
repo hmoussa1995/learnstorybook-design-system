@@ -1,11 +1,11 @@
 import React from "react";
 
-import { TestComponentProps } from "./TestComponent.types";
+import { SolidLowContrastButtonProps } from './SolidLowContrastButton.types';
 
-import "./TestComponent.scss";
+import './SolidLowContrastButton.scss';
 import { Button } from '@hmoussa1995/react-button-lib-github';
 
-const TestComponent: React.FC<TestComponentProps> = ({
+const SolidLowContrast: React.FC<SolidLowContrastButtonProps> = ({
   theme,
   size,
   label,
@@ -17,8 +17,8 @@ const TestComponent: React.FC<TestComponentProps> = ({
     <Button
       id={'solidButton'}
       label={label ? label : ''}
-      name={'Solid-High-Contrast'}
-      // icon="add_circle"
+      name={'Solid-Low-Contrast'}
+      icon="add_circle"
       iconPosition="left"
       theme={theme}
       size={size}
@@ -26,4 +26,4 @@ const TestComponent: React.FC<TestComponentProps> = ({
   </div>
 );
 
-export default TestComponent;
+export default SolidLowContrast;
