@@ -1,19 +1,19 @@
 .test-component {
-    background-color: white;
-    border: 1px solid black;
-    padding: 16px;
-    width: 360px;
-    text-align: center;
+    // background-color: white;
+    // border: 1px solid black;
+    // padding: 16px;
+    // width: 360px;
+    // text-align: center;
 
     .heading {
         font-size: 64px;
     }
-    &.test-component-light{
-        background-color: white;
-        color:black;
-    }
-    &.test-component-dark {
-        background-color: black;
-        color: white;
-    }
+        // &.test-component-light{
+        //     background-color: white;
+        //     color:black;
+        // }
+        // &.test-component-dark {
+        //     background-color: black;
+        //     color: white;
+        // }
 }

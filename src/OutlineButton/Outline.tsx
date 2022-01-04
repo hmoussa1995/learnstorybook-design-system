@@ -5,11 +5,7 @@ import { OutlineProps } from "./Outline.types";
 import "./Outline.scss";
 import { Button } from '@hmoussa1995/react-button-lib-github';
 
-const Outline: React.FC<OutlineProps> = ({ theme, size, label }) => (
-  <div
-    data-testid="test-component"
-    className={`test-component test-component-${theme}`}
-  >
+const Outline: React.FC<OutlineProps> = ({ theme, size, label, hasIcon }) => (
     <Button
       id={'solidButton'}
       label={label ? label : ''}
@@ -17,9 +13,9 @@ const Outline: React.FC<OutlineProps> = ({ theme, size, label }) => (
       icon="add_circle"
       iconPosition="left"
       theme={theme}
+      hasIcon={hasIcon}
       size={size}
     />
-  </div>
 );
 
 export default Outline;

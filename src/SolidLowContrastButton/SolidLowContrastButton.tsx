@@ -9,21 +9,18 @@ const SolidLowContrast: React.FC<SolidLowContrastButtonProps> = ({
   theme,
   size,
   label,
+  hasIcon,
 }) => (
-  <div
-    data-testid="test-component"
-    className={`test-component test-component-${theme}`}
-  >
     <Button
       id={'solidButton'}
       label={label ? label : ''}
       name={'Solid-Low-Contrast'}
       icon="add_circle"
       iconPosition="left"
+      hasIcon={hasIcon}
       theme={theme}
       size={size}
     />
-  </div>
 );
 
 export default SolidLowContrast;

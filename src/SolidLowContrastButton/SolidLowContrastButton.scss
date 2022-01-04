@@ -1,19 +1,10 @@
-.test-component {
-    background-color: white;
-    border: 1px solid black;
-    padding: 16px;
-    width: 360px;
-    text-align: center;
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 
-    .heading {
-        font-size: 64px;
-    }
-    &.test-component-light{
-        background-color: white;
-        color:black;
-    }
-    &.test-component-dark {
-        background-color: black;
-        color: white;
-    }
+.button-variant-section {
+    display: flex;
+    align-items: center;
 }
