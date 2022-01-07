@@ -2,7 +2,7 @@ import React from "react";
 import SolidLowContrastButton from './SolidLowContrastButton';
 import './SolidLowContrastButton.scss';
 export default {
-  title: "Button",
+  title: "Button/SolidLowContrast",
 };
 
 export const SolidLowContrast = () => (

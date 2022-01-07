@@ -2,7 +2,8 @@ import React from "react";
 import Outline from './Outline';
 import './Outline.scss';
 export default {
-  title: "Button",
+  title: "Button/Outline",
+  // component:Outline
 };
 
 export const OutlineButton = () => (

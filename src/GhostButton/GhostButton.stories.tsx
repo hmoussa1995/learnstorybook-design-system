@@ -3,7 +3,7 @@ import GhostButton from "./GhostButton";
 import './GhostButton.scss';
 
 export default {
-  title: "Button",
+  title: "Button/Ghost",
 };
 
 export const GhostButtonStory = () => (

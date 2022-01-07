@@ -1,11 +1,11 @@
 import React from "react";
 
-import { TestComponentProps } from "./TestComponent.types";
+import { SolidHighContrastProps } from "./SolidHighContrast.types";
 
-import "./TestComponent.scss";
+import "./SolidHighContrast.scss";
 import { Button } from '@hmoussa1995/react-button-lib-github';
 
-const TestComponent: React.FC<TestComponentProps> = ({
+const SolidHighContrast: React.FC<SolidHighContrastProps> = ({
   theme,
   size,
   label,
@@ -28,4 +28,4 @@ const TestComponent: React.FC<TestComponentProps> = ({
   // </div>
 );
 
-export default TestComponent;
+export default SolidHighContrast;
