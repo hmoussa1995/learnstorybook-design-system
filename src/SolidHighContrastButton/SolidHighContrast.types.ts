@@ -4,4 +4,5 @@ export interface SolidHighContrastProps {
   label?;
   name?;
   hasIcon?;
+  className?;
 }

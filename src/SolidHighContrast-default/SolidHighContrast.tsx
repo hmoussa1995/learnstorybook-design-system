@@ -1,8 +1,8 @@
 import React from "react";
 
-import { SolidHighContrastProps } from "./SolidHighContrast.types";
+import { SolidHighContrastProps } from "../SolidHighContrastButton/SolidHighContrast.types";
 
-import "./SolidHighContrast.scss";
+import '../SolidHighContrastButton/SolidHighContrast.scss';
 import { Button } from '@hmoussa1995/react-button-lib-github';
 
 const SolidHighContrast: React.FC<SolidHighContrastProps> = ({

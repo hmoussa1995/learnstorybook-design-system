@@ -55,7 +55,7 @@
     "@babel/preset-typescript": "^7.16.5",
     "@emotion/react": "^11.7.0",
     "@emotion/styled": "^11.6.0",
-    "@hmoussa1995/react-button-lib-github": "^4.2.4",
+    "@hmoussa1995/react-button-lib-github": "^4.2.5",
     "@mui/icons-material": "^5.2.1",
     "@mui/material": "^5.2.3",
     "@open-wc/building-rollup": "^2.0.1",
@@ -93,6 +93,7 @@
   "dependencies": {
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.1.1",
+    "@storybook/addon-controls": "^6.4.10",
     "ejs-loader": "^0.5.0",
     "eslint-plugin-jsdoc": "^37.2.2",
     "node-gyp": "^8.4.1",

@@ -3,4 +3,5 @@ export interface OutlineProps {
   size?: "large" | "small" | "xsmall" | "default";
   label?: string;
   hasIcon?:boolean;
+  className?;
 }

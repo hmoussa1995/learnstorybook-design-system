@@ -12,32 +12,32 @@ export const OutlineButton = () => (
       className="light sub-container"
     >
       <div className="button-variant-section">
-        <Outline theme="light" size="large" label="Outline B" />
-        <Outline theme="light" size="default" label="Outline B" />
-        <Outline theme="light" size="small" label="Outline B" />
-        <Outline theme="light" size="xsmall" label="Outline B" />
+        <Outline theme="light" size="large" className="margin-around" label="Outline B" />
+        <Outline theme="light" size="default" className="margin-around" label="Outline B" />
+        <Outline theme="light" size="small" className="margin-around" label="Outline B" />
+        <Outline theme="light" size="xsmall" className="margin-around" label="Outline B" />
       </div>
       <div className="button-variant-section">
-        <Outline theme="light" hasIcon={false} size="large" label="Outline B" />
+        <Outline theme="light" hasIcon={false} size="large" className="margin-around" label="Outline B" />
         <Outline
           theme="light"
           hasIcon={false}
-          size="default"
+          size="default" className="margin-around"
           label="Outline B"
         />
-        <Outline theme="light" hasIcon={false} size="small" label="Outline B" />
+        <Outline theme="light" hasIcon={false} size="small" className="margin-around" label="Outline B" />
         <Outline
           theme="light"
           hasIcon={false}
-          size="xsmall"
+          size="xsmall" className="margin-around"
           label="Outline B"
         />
       </div>
       <div className="button-variant-section">
-        <Outline theme="light" size="large" />
-        <Outline theme="light" size="default" />
-        <Outline theme="light" size="small" />
-        <Outline theme="light" size="xsmall" />
+        <Outline theme="light" size="large" className="margin-around" />
+        <Outline theme="light" size="default" className="margin-around" />
+        <Outline theme="light" size="small" className="margin-around" />
+        <Outline theme="light" size="xsmall" className="margin-around" />
       </div>
     </div>
     <br />
@@ -45,27 +45,27 @@ export const OutlineButton = () => (
       className="dark sub-container"
     >
       <div className="button-variant-section">
-        <Outline theme="dark" size="large" label="Outline B" />
-        <Outline theme="dark" size="default" label="Outline B" />
-        <Outline theme="dark" size="small" label="Outline B" />
-        <Outline theme="dark" size="xsmall" label="Outline B" />
+        <Outline theme="dark" size="large" className="margin-around" label="Outline B" />
+        <Outline theme="dark" size="default" className="margin-around" label="Outline B" />
+        <Outline theme="dark" size="small" className="margin-around" label="Outline B" />
+        <Outline theme="dark" size="xsmall" className="margin-around" label="Outline B" />
       </div>
       <div className="button-variant-section">
-        <Outline theme="dark" hasIcon={false} size="large" label="Outline B" />
+        <Outline theme="dark" hasIcon={false} size="large" className="margin-around" label="Outline B" />
         <Outline
           theme="dark"
           hasIcon={false}
-          size="default"
+          size="default" className="margin-around"
           label="Outline B"
         />
-        <Outline theme="dark" hasIcon={false} size="small" label="Outline B" />
-        <Outline theme="dark" hasIcon={false} size="xsmall" label="Outline B" />
+        <Outline theme="dark" hasIcon={false} size="small" className="margin-around" label="Outline B" />
+        <Outline theme="dark" hasIcon={false} size="xsmall" className="margin-around" label="Outline B" />
       </div>
       <div className="button-variant-section">
-        <Outline theme="dark" size="large" />
-        <Outline theme="dark" size="default" />
-        <Outline theme="dark" size="small" />
-        <Outline theme="dark" size="xsmall" />
+        <Outline theme="dark" size="large" className="margin-around" />
+        <Outline theme="dark" size="default" className="margin-around" />
+        <Outline theme="dark" size="small" className="margin-around" />
+        <Outline theme="dark" size="xsmall" className="margin-around" />
       </div>
     </div>
   </div>

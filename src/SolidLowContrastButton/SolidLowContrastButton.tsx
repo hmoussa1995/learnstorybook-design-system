@@ -10,7 +10,9 @@ const SolidLowContrast: React.FC<SolidLowContrastButtonProps> = ({
   size,
   label,
   hasIcon,
+  className
 }) => (
+  <div className={className}>
     <Button
       id={'solidButton'}
       label={label ? label : ''}
@@ -20,7 +22,8 @@ const SolidLowContrast: React.FC<SolidLowContrastButtonProps> = ({
       hasIcon={hasIcon}
       theme={theme}
       size={size}
-    />
+      />
+      </div>
 );
 
 export default SolidLowContrast;

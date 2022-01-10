@@ -13,21 +13,25 @@ export const SolidLowContrast = () => (
           theme="light"
           size="large"
           label="Low Contrast B"
+          className="margin-around"
         />
         <SolidLowContrastButton
           theme="light"
           size="default"
           label="Low Contrast B"
+          className="margin-around"
         />
         <SolidLowContrastButton
           theme="light"
           size="small"
           label="Low Contrast B"
+          className="margin-around"
         />
         <SolidLowContrastButton
           theme="light"
           size="xsmall"
           label="Low Contrast B"
+          className="margin-around"
         />
       </div>
       <div className="button-variant-section">
@@ -36,31 +40,35 @@ export const SolidLowContrast = () => (
           hasIcon={false}
           size="large"
           label="Low Contrast B"
+          className="margin-around"
         />
         <SolidLowContrastButton
           theme="light"
           hasIcon={false}
           size="default"
           label="Low Contrast B"
+          className="margin-around"
         />
         <SolidLowContrastButton
           theme="light"
           hasIcon={false}
           size="small"
           label="Low Contrast B"
+          className="margin-around"
         />
         <SolidLowContrastButton
           theme="light"
           hasIcon={false}
           size="xsmall"
           label="Low Contrast B"
+          className="margin-around"
         />
       </div>
       <div className="button-variant-section">
-        <SolidLowContrastButton theme="light" size="large" />
-        <SolidLowContrastButton theme="light" size="default" />
-        <SolidLowContrastButton theme="light" size="small" />
-        <SolidLowContrastButton theme="light" size="xsmall" />
+        <SolidLowContrastButton theme="light" size="large" className="margin-around" />
+        <SolidLowContrastButton theme="light" size="default" className="margin-around" />
+        <SolidLowContrastButton theme="light" size="small" className="margin-around" />
+        <SolidLowContrastButton theme="light" size="xsmall" className="margin-around" />
       </div>
     </div>
     <br />
@@ -68,22 +76,22 @@ export const SolidLowContrast = () => (
       <div className="button-variant-section">
         <SolidLowContrastButton
           theme="dark"
-          size="large"
+          size="large" className="margin-around"
           label="Low Contrast B"
         />
         <SolidLowContrastButton
           theme="dark"
-          size="default"
+          size="default" className="margin-around"
           label="Low Contrast B"
         />
         <SolidLowContrastButton
           theme="dark"
-          size="small"
+          size="small" className="margin-around"
           label="Low Contrast B"
         />
         <SolidLowContrastButton
           theme="dark"
-          size="xsmall"
+          size="xsmall" className="margin-around"
           label="Low Contrast B"
         />
       </div>
@@ -91,33 +99,33 @@ export const SolidLowContrast = () => (
         <SolidLowContrastButton
           theme="dark"
           hasIcon={false}
-          size="large"
+          size="large" className="margin-around"
           label="Low Contrast B"
         />
         <SolidLowContrastButton
           theme="dark"
           hasIcon={false}
-          size="default"
+          size="default" className="margin-around"
           label="Low Contrast B"
         />
         <SolidLowContrastButton
           theme="dark"
           hasIcon={false}
-          size="small"
+          size="small" className="margin-around"
           label="Low Contrast B"
         />
         <SolidLowContrastButton
           theme="dark"
           hasIcon={false}
-          size="xsmall"
+          size="xsmall" className="margin-around"
           label="Low Contrast B"
         />
       </div>
       <div className="button-variant-section">
-        <SolidLowContrastButton theme="dark" size="large" />
-        <SolidLowContrastButton theme="dark" size="default" />
-        <SolidLowContrastButton theme="dark" size="small" />
-        <SolidLowContrastButton theme="dark" size="xsmall" />
+        <SolidLowContrastButton theme="dark" size="large" className="margin-around" />
+        <SolidLowContrastButton theme="dark" size="default" className="margin-around" />
+        <SolidLowContrastButton theme="dark" size="small" className="margin-around" />
+        <SolidLowContrastButton theme="dark" size="xsmall" className="margin-around" />
       </div>
     </div>
   </div>

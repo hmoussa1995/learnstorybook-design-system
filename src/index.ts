@@ -1,5 +1,5 @@
 // variants with all sizes together
-import TestComponent from "./TestComponent/TestComponent";
+import TestComponent from "./SolidHighContrastButton/SolidHighContrast";
 import Outline from "./OutlineButton/Outline";
 import SolidLowContrast from './SolidLowContrastButton/SolidLowContrastButton';
 import GhostButtonStory from './GhostButton/GhostButton';
@@ -22,6 +22,11 @@ import SolidLowContrastDefault from './SolidLowContrast-default/SolidLowContrast
 import SolidLowContrastSmall from './SolidLowContrast-small/SolidLowContrastButton';
 import SolidLowContrastXsmall from './SolidLowContrast-xsmall/SolidLowContrastButton';
 
+import SolidHighContrastLarge from './SolidHighContrast-large/SolidHighContrast';
+import SolidHighContrastDefault from './SolidHighContrast-default/SolidHighContrast';
+import SolidHighContrastSmall from './SolidHighContrast-small/SolidHighContrast';
+import SolidHighContrastXsmall from './SolidHighContrast-xsmall/SolidHighContrast';
+
 export { 
   TestComponent,
   Outline,
@@ -38,6 +43,10 @@ export {
   SolidLowContrastLarge,
   SolidLowContrastDefault,
   SolidLowContrastSmall,
-  SolidLowContrastXsmall
+  SolidLowContrastXsmall,
+  SolidHighContrastLarge,
+  SolidHighContrastDefault,
+  SolidHighContrastSmall,
+  SolidHighContrastXsmall
 
  };

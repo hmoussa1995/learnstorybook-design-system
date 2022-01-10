@@ -12,6 +12,7 @@ export const parameters = {
       },
     ],
   },
+  controls: { expanded: true },
   theme: {
     name: 'Theme',
     description: 'Global theme for components',

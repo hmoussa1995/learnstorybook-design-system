@@ -3,7 +3,12 @@
     flex-direction: column;
     justify-content: space-evenly;
 }
-.button-variant-section{
-    display:flex;
-    align-items:center;
+.button-variant-section {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.margin-around {
+    margin: 0 10px;
 }
