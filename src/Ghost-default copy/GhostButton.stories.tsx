@@ -3,11 +3,11 @@ import GhostButton from '../GhostButton-light/GhostButton';
 import '../GhostButton-light/GhostButton';
 
 export default {
-  title: 'Button/Ghost-All-light',
+  title: 'Button/Ghost-All-dark',
 };
 
 export const GhostButtonDefault = () => {
-  const [selectedTheme, setSelectedTheme] = useState('light');
+  const [selectedTheme, setSelectedTheme] = useState('dark');
   const handleChange = (theme) => {
     // do the rest here
     setSelectedTheme(theme);

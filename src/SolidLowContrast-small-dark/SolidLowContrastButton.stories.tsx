@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
-import GhostButton from '../GhostButton-light/GhostButton';
-import '../GhostButton-light/GhostButton';
-
+import SolidLowContrastButton from '../SolidLowContrastButton-light/SolidLowContrastButton';
+import '../SolidLowContrastButton-light/SolidLowContrastButton.scss';
 export default {
-  title: 'Button/Ghost-All-light',
+  title: 'Button/SolidLowContrast-All-dark',
 };
 
-export const GhostButtonDefault = () => {
-  const [selectedTheme, setSelectedTheme] = useState('light');
+export const SolidLowContrastSmall = () => {
+  const [selectedTheme, setSelectedTheme] = useState('dark');
   const handleChange = (theme) => {
     // do the rest here
     setSelectedTheme(theme);
@@ -27,32 +26,28 @@ export const GhostButtonDefault = () => {
       />
       <label className={`${selectedTheme}-theme-textcolor`}>Dark</label> */}
       <div className="light sub-container">
-        {/* light theme with label with icon */}
         <div className="button-variant-section">
-          <GhostButton
-            name="Ghost"
+          <SolidLowContrastButton
             theme={selectedTheme}
+            size="small"
+            label="Low Contrast B"
             className="margin-around"
-            size="default"
-            label="Ghost"
           />
         </div>
-        {/* light theme without label without icon */}
         <div className="button-variant-section">
-          <GhostButton
+          <SolidLowContrastButton
             theme={selectedTheme}
+            hasIcon={false}
+            size="small"
+            label="Low Contrast B"
             className="margin-around"
-            hasIcon="false"
-            size="default"
-            label="Ghost"
           />
         </div>
-        {/* light theme without label with icon */}
         <div className="button-variant-section">
-          <GhostButton
+          <SolidLowContrastButton
             theme={selectedTheme}
+            size="small"
             className="margin-around"
-            size="default"
           />
         </div>
       </div>

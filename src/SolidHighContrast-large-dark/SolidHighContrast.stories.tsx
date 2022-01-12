@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import GhostButton from '../GhostButton-light/GhostButton';
-import '../GhostButton-light/GhostButton';
+import SolidHighContrastButton from './SolidHighContrast';
+import '../SolidHighContrastButton-light/SolidHighContrast.scss';
 
 export default {
-  title: 'Button/Ghost-All-light',
+  title: 'Button/SolidHighContrast-All-dark',
 };
 
-export const GhostButtonDefault = () => {
-  const [selectedTheme, setSelectedTheme] = useState('light');
+export const SolidHighContrastLarge = () => {
+  const [selectedTheme, setSelectedTheme] = useState('dark');
   const handleChange = (theme) => {
     // do the rest here
     setSelectedTheme(theme);
@@ -29,30 +29,29 @@ export const GhostButtonDefault = () => {
       <div className="light sub-container">
         {/* light theme with label with icon */}
         <div className="button-variant-section">
-          <GhostButton
-            name="Ghost"
+          <SolidHighContrastButton
             theme={selectedTheme}
+            size="large"
+            label="High Contrast B"
             className="margin-around"
-            size="default"
-            label="Ghost"
           />
         </div>
         {/* light theme without label without icon */}
         <div className="button-variant-section">
-          <GhostButton
+          <SolidHighContrastButton
             theme={selectedTheme}
-            className="margin-around"
             hasIcon="false"
-            size="default"
-            label="Ghost"
+            size="large"
+            label="High Contrast B"
+            className="margin-around"
           />
         </div>
         {/* light theme without label with icon */}
         <div className="button-variant-section">
-          <GhostButton
+          <SolidHighContrastButton
             theme={selectedTheme}
+            size="large"
             className="margin-around"
-            size="default"
           />
         </div>
       </div>

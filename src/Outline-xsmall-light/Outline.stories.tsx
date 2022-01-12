@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import GhostButton from '../GhostButton-light/GhostButton';
-import '../GhostButton-light/GhostButton';
-
+import Outline from './Outline';
+import '../OutlineButton-light/Outline.scss';
 export default {
-  title: 'Button/Ghost-All-light',
+  title: 'Button/Outline-All-light',
+  // component:Outline
 };
 
-export const GhostButtonDefault = () => {
+export const OutlineXsmall = () => {
   const [selectedTheme, setSelectedTheme] = useState('light');
   const handleChange = (theme) => {
     // do the rest here
@@ -27,32 +27,28 @@ export const GhostButtonDefault = () => {
       />
       <label className={`${selectedTheme}-theme-textcolor`}>Dark</label> */}
       <div className="light sub-container">
-        {/* light theme with label with icon */}
         <div className="button-variant-section">
-          <GhostButton
-            name="Ghost"
+          <Outline
             theme={selectedTheme}
+            size="xsmall"
             className="margin-around"
-            size="default"
-            label="Ghost"
+            label="Outline B"
           />
         </div>
-        {/* light theme without label without icon */}
         <div className="button-variant-section">
-          <GhostButton
+          <Outline
             theme={selectedTheme}
+            hasIcon={false}
+            size="xsmall"
             className="margin-around"
-            hasIcon="false"
-            size="default"
-            label="Ghost"
+            label="Outline B"
           />
         </div>
-        {/* light theme without label with icon */}
         <div className="button-variant-section">
-          <GhostButton
+          <Outline
             theme={selectedTheme}
+            size="xsmall"
             className="margin-around"
-            size="default"
           />
         </div>
       </div>

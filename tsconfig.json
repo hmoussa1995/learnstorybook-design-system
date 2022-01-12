@@ -16,7 +16,7 @@
     "noImplicitAny": false,
     "rootDir": "./"
   },
-  "include": ["./src/**/*.ts", "src/TestComponent/TestComponent.test.tsx"],
+  "include": ["./src/**/*.ts", "src/SolidHighContrast/TestComponent.test.tsx"],
   "exclude": [
     "node_modules",
     "build",

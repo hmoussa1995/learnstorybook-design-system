@@ -1,52 +1,51 @@
 // variants with all sizes together
-import TestComponent from "./SolidHighContrastButton/SolidHighContrast";
-import Outline from "./OutlineButton/Outline";
-import SolidLowContrast from './SolidLowContrastButton/SolidLowContrastButton';
-import GhostButtonStory from './GhostButton/GhostButton';
+import SolidHighContrast from "./SolidHighContrastButton-light/SolidHighContrast";
+import Outline from "./OutlineButton-light/Outline";
+import SolidLowContrast from './SolidLowContrastButton-light/SolidLowContrastButton';
+import GhostButtonStory from './GhostButton-light/GhostButton';
 
 // ghost sizes
-import GhostLarge from './Ghost-large/GhostButton';
+import GhostLarge from './Ghost-large-light/GhostButton';
 import GhostDefault from './Ghost-default/GhostButton';
-import GhostSmall from './Ghost-small/GhostButton';
-import GhostXsmall from './Ghost-xsmall/GhostButton';
+import GhostSmall from './Ghost-small-light/GhostButton';
+import GhostXsmall from './Ghost-xsmall-light/GhostButton';
 
 // outline sizes
-import OutlineLarge from './Ghost-large/GhostButton';
-import OutlineDefault from './Ghost-default/GhostButton';
-import OutlineSmall from './Ghost-small/GhostButton';
-import OutlineXsmall from './Ghost-xsmall/GhostButton';
+import OutlineLarge from './Outline-large-light/Outline';
+import OutlineDefault from './Outline-default-light/Outline';
+import OutlineSmall from './Outline-small-light/Outline';
+import OutlineXsmall from './Outline-xsmall-light/Outline';
 
 //Solid low contrast sizes
-import SolidLowContrastLarge from './SolidLowContrast-large/SolidLowContrastButton';
-import SolidLowContrastDefault from './SolidLowContrast-default/SolidLowContrastButton';
-import SolidLowContrastSmall from './SolidLowContrast-small/SolidLowContrastButton';
-import SolidLowContrastXsmall from './SolidLowContrast-xsmall/SolidLowContrastButton';
+import SolidLowContrastLarge from './SolidLowContrast-large-light/SolidLowContrastButton';
+import SolidLowContrastDefault from './SolidLowContrast-default-light/SolidLowContrastButton';
+import SolidLowContrastSmall from './SolidLowContrast-small-light/SolidLowContrastButton';
+import SolidLowContrastXsmall from './SolidLowContrast-xsmall-light/SolidLowContrastButton';
 
-import SolidHighContrastLarge from './SolidHighContrast-large/SolidHighContrast';
-import SolidHighContrastDefault from './SolidHighContrast-default/SolidHighContrast';
-import SolidHighContrastSmall from './SolidHighContrast-small/SolidHighContrast';
-import SolidHighContrastXsmall from './SolidHighContrast-xsmall/SolidHighContrast';
+import SolidHighContrastLarge from './SolidHighContrast-large-light/SolidHighContrast';
+import SolidHighContrastDefault from './SolidHighContrast-default-light/SolidHighContrast';
+import SolidHighContrastSmall from './SolidHighContrast-small-light/SolidHighContrast';
+import SolidHighContrastXsmall from './SolidHighContrast-xsmall-dark/SolidHighContrast';
 
 export { 
-  TestComponent,
-  Outline,
+  SolidHighContrast,
   SolidLowContrast,
+  Outline,
   GhostButtonStory,
-  GhostLarge,
-  GhostDefault,
-  GhostSmall,
-  GhostXsmall, 
-  OutlineLarge,
-  OutlineDefault,
-  OutlineSmall,
-  OutlineXsmall,
+  SolidHighContrastLarge,
+  SolidHighContrastDefault,
+  SolidHighContrastSmall,
+  SolidHighContrastXsmall,
   SolidLowContrastLarge,
   SolidLowContrastDefault,
   SolidLowContrastSmall,
   SolidLowContrastXsmall,
-  SolidHighContrastLarge,
-  SolidHighContrastDefault,
-  SolidHighContrastSmall,
-  SolidHighContrastXsmall
-
+  OutlineLarge,
+  OutlineDefault,
+  OutlineSmall,
+  OutlineXsmall,
+  GhostLarge,
+  GhostDefault,
+  GhostSmall,
+  GhostXsmall
  };

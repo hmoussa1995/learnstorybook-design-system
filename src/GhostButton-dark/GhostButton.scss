@@ -1,0 +1,21 @@
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.button-variant-section {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.margin-around {
+    margin: 0 10px;
+}
+.light-bg {
+    background-color: #F6F9FC;
+}
+
+.dark-bg {
+    background-color: #2F2F2F;
+}

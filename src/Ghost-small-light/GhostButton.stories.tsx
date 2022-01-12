@@ -6,7 +6,7 @@ export default {
   title: 'Button/Ghost-All-light',
 };
 
-export const GhostButtonDefault = () => {
+export const GhostButtonSmall = () => {
   const [selectedTheme, setSelectedTheme] = useState('light');
   const handleChange = (theme) => {
     // do the rest here
@@ -33,7 +33,7 @@ export const GhostButtonDefault = () => {
             name="Ghost"
             theme={selectedTheme}
             className="margin-around"
-            size="default"
+            size="small"
             label="Ghost"
           />
         </div>
@@ -43,7 +43,7 @@ export const GhostButtonDefault = () => {
             theme={selectedTheme}
             className="margin-around"
             hasIcon="false"
-            size="default"
+            size="small"
             label="Ghost"
           />
         </div>
@@ -52,7 +52,7 @@ export const GhostButtonDefault = () => {
           <GhostButton
             theme={selectedTheme}
             className="margin-around"
-            size="default"
+            size="small"
           />
         </div>
       </div>
