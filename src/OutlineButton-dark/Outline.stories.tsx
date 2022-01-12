@@ -7,7 +7,7 @@ export default {
 };
 
 export const OutlineButton = () => {
-  const [selectedTheme, setSelectedTheme] = useState('light');
+  const [selectedTheme, setSelectedTheme] = useState('dark');
   const handleChange = (theme) => {
     // do the rest here
     setSelectedTheme(theme);

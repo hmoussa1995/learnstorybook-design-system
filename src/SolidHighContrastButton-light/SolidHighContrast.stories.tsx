@@ -4,7 +4,7 @@ import './SolidHighContrast.scss';
 
 export default {
   title: 'Button/SolidHighContrast-light',
-  component:SolidHighContrastButton,
+  component: SolidHighContrastButton,
   argTypes: {
     variant: {
       control: { type: 'radio' },
@@ -18,12 +18,12 @@ const Template = (args) => {
     // do the rest here
     setSelectedTheme(theme);
   };
-return (
-  //👇 Your template goes here
+  return (
+    //👇 Your template goes here
 
-  // export const SolidHighContrast = () => (
-  <div className={`${selectedTheme}-bg`}>
-    {/* <input
+    // export const SolidHighContrast = () => (
+    <div className={`${selectedTheme}-bg`}>
+      {/* <input
       type="radio"
       name="theme-toggle"
       onChange={() => handleChange('light')}
@@ -35,114 +35,114 @@ return (
       onChange={() => handleChange('dark')}
     />
     <label className={`${selectedTheme}-theme-textcolor`}>Dark</label> */}
-    <div className="light sub-container">
-      {/* light theme with label with icon */}
-      <div className="button-variant-section">
-        <SolidHighContrastButton
-          theme={selectedTheme}
-          size="large"
-          label="High Contrast B"
-          className="margin-around"
-        />
-        <SolidHighContrastButton
-          theme={selectedTheme}
-          size="default"
-          label="High Contrast B"
-          className="margin-around"
-        />
-        <SolidHighContrastButton
-          theme={selectedTheme}
-          size="small"
-          label="High Contrast B"
-          className="margin-around"
-        />
-        <SolidHighContrastButton
-          theme={selectedTheme}
-          size="xsmall"
-          label="High Contrast B"
-          className="margin-around"
-        />
+      <div className="light sub-container">
+        {/* light theme with label with icon */}
+        <div className="button-variant-section">
+          <SolidHighContrastButton
+            theme={selectedTheme}
+            size="large"
+            label="High Contrast"
+            className="margin-around"
+          />
+          <SolidHighContrastButton
+            theme={selectedTheme}
+            size="default"
+            label="High Contrast"
+            className="margin-around"
+          />
+          <SolidHighContrastButton
+            theme={selectedTheme}
+            size="small"
+            label="High Contrast"
+            className="margin-around"
+          />
+          <SolidHighContrastButton
+            theme={selectedTheme}
+            size="xsmall"
+            label="High Contrast"
+            className="margin-around"
+          />
+        </div>
+        {/* light theme without label without icon */}
+        <div className="button-variant-section">
+          <SolidHighContrastButton
+            theme={selectedTheme}
+            hasIcon="false"
+            size="large"
+            label="High Contrast"
+            className="margin-around"
+          />
+          <SolidHighContrastButton
+            theme={selectedTheme}
+            hasIcon="false"
+            size="default"
+            label="High Contrast"
+            className="margin-around"
+          />
+          <SolidHighContrastButton
+            theme={selectedTheme}
+            hasIcon="false"
+            size="small"
+            label="High Contrast"
+            className="margin-around"
+          />
+          <SolidHighContrastButton
+            theme={selectedTheme}
+            hasIcon="false"
+            size="xsmall"
+            label="High Contrast"
+            className="margin-around"
+          />
+        </div>
+        {/* light theme without label with icon */}
+        <div className="button-variant-section">
+          <SolidHighContrastButton
+            theme={selectedTheme}
+            size="large"
+            className="margin-around"
+          />
+          <SolidHighContrastButton
+            theme={selectedTheme}
+            size="default"
+            className="margin-around"
+          />
+          <SolidHighContrastButton
+            theme={selectedTheme}
+            size="small"
+            className="margin-around"
+          />
+          <SolidHighContrastButton
+            theme={selectedTheme}
+            size="xsmall"
+            className="margin-around"
+          />
+        </div>
       </div>
-      {/* light theme without label without icon */}
-      <div className="button-variant-section">
-        <SolidHighContrastButton
-          theme={selectedTheme}
-          hasIcon="false"
-          size="large"
-          label="High Contrast B"
-          className="margin-around"
-        />
-        <SolidHighContrastButton
-          theme={selectedTheme}
-          hasIcon="false"
-          size="default"
-          label="High Contrast B"
-          className="margin-around"
-        />
-        <SolidHighContrastButton
-          theme={selectedTheme}
-          hasIcon="false"
-          size="small"
-          label="High Contrast B"
-          className="margin-around"
-        />
-        <SolidHighContrastButton
-          theme={selectedTheme}
-          hasIcon="false"
-          size="xsmall"
-          label="High Contrast B"
-          className="margin-around"
-        />
-      </div>
-      {/* light theme without label with icon */}
+      <br />
+      {/* <div className="dark sub-container">
       <div className="button-variant-section">
         <SolidHighContrastButton
           theme={selectedTheme}
           size="large"
+          label="High Contrast"
           className="margin-around"
         />
         <SolidHighContrastButton
           theme={selectedTheme}
           size="default"
+          label="High Contrast"
           className="margin-around"
         />
         <SolidHighContrastButton
           theme={selectedTheme}
           size="small"
+          label="High Contrast"
           className="margin-around"
         />
         <SolidHighContrastButton
           theme={selectedTheme}
           size="xsmall"
-          className="margin-around"
-        />
-      </div>
-    </div>
-    <br />
-    {/* <div className="dark sub-container">
-      <div className="button-variant-section">
-        <SolidHighContrastButton
-          theme={selectedTheme}
-          size="large"
-          label="High Contrast B"
-          className="margin-around"
-        />
-        <SolidHighContrastButton
-          theme={selectedTheme}
-          size="default"
-          label="High Contrast B"
-          className="margin-around"
-        />
-        <SolidHighContrastButton
-          theme={selectedTheme}
-          size="small"
-          label="High Contrast B"
-          className="margin-around"
-        />
-        <SolidHighContrastButton
-          theme={selectedTheme}
-          size="xsmall"
-          label="High Contrast B"
+          label="High Contrast"
           className="margin-around"
         />
       </div>
@@ -151,28 +151,28 @@ return (
           theme={selectedTheme}
           hasIcon={false}
           size="large"
-          label="High Contrast B"
+          label="High Contrast"
           className="margin-around"
         />
         <SolidHighContrastButton
           theme={selectedTheme}
           hasIcon={false}
           size="default"
-          label="High Contrast B"
+          label="High Contrast"
           className="margin-around"
         />
         <SolidHighContrastButton
           theme={selectedTheme}
           hasIcon={false}
           size="small"
-          label="High Contrast B"
+          label="High Contrast"
           className="margin-around"
         />
         <SolidHighContrastButton
           theme={selectedTheme}
           hasIcon={false}
           size="xsmall"
-          label="High Contrast B"
+          label="High Contrast"
           className="margin-around"
         />
       </div>
@@ -199,10 +199,10 @@ return (
         />
       </div>
     </div> */}
-  </div>
-);};
+    </div>
+  );
+};
 // );
-
 
 export const SolidHighContrast = Template.bind({});
 SolidHighContrast.args = {
