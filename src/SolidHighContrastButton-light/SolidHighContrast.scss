@@ -7,21 +7,30 @@
 .button-variant-section {
     display: flex;
     align-items: center;
-    margin:10px 0;
+    margin: 10px 0;
 }
+
 .margin-around {
     margin: 0 10px;
 }
+
 .light-bg {
-    background-color: #F6F9FC;
+    background-color: white !important;
 }
+
 .dark-bg {
     background-color: #000000;
-    }
-    .light-theme-textcolor {
+}
+
+.light-theme-textcolor {
     color: #000000
 }
 
 .dark-theme-textcolor {
     color: #fff;
+}
+
+body.sb-show-main {
+    background: white !important;
+    transition: background-color 0.3s;
 }
